@@ -1,0 +1,31 @@
+.Header {
+  border-bottom: 1px solid #a1a1a1; 
+  background-color: #e7e7e7;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: 0px auto 20px auto;
+  padding: 5px;
+  list-style: none;
+}
+.Header li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px 5px 0px 5px;
+}
+.Header li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #a1a1a1;
+  color: #000;
+}
+.Header li a:hover {
+  background-color: #777;
+  border: 1px solid #000;
+  color: #fff;
+}
