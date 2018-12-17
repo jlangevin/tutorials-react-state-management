@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Feed from './Feed';
+import * as classes from './PropsExample.module.css';
 
 class PropsExample extends Component {
   state = {
@@ -82,7 +83,7 @@ class PropsExample extends Component {
 
   render() {
     return (
-      <div>
+      <div className={classes.Page}>
         <h1>Props Example</h1>
         <div>Hello: {this.state.user.name}</div>
         <Feed

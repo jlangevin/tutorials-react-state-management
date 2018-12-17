@@ -1,10 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Feed from './Feed';
+import * as classes from './Page.module.css';
 
 const Page = (props) => {
   return (
-    <div>
+    <div className={classes.Page}>
       <h1>Redux Example</h1>
       <div>Hello: {props.user.name}</div>
       <Feed />

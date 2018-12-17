@@ -1,0 +1,7 @@
+.Page {
+  padding: 20px;
+  background-color: rgba(0,0,0,.5);
+}
+.Page h1 {
+  margin-top: 0;
+}
