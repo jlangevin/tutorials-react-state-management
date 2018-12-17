@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router'
 
 import Header from './components/Header/Header';
-import Props from './components/Props/Props';
-import Context from './components/Context/Context';
-import Redux from './components/Redux/Redux';
+import Props from './components/PropsExample/PropsExample';
+import Context from './components/ContextExample/ContextExample';
+import Redux from './components/ReduxExample/ReduxExample';
 
 import './App.css';
 
