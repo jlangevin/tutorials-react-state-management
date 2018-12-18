@@ -1,0 +1,12 @@
+.AuthorBlock {
+  display: flex;
+}
+.AuthorImage {
+  height: 50px;
+  width: 50px;
+  background-color: #aeaeae;
+  border: 1px solid #000;
+}
+.AuthorInfo div {
+  margin: 0px 0px 5px 5px;
+}
